@@ -1,43 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta charset="utf-8">
+  <meta name="author" content="Portfolio">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="Dimple Revawala - Portfolio">
+  <meta name="description" content="Dimple Revawala - Portfolio">
+  <!-- Meta data -->
+  <meta name="Dimple Revawala" content="Frontend Web Developer" />
+  <meta name="description"
+    content="As a Frontend Web Developer, I build digital products UI, specializing in custom web theme design and I love what I do." />
+  <meta name="keywords"
+    content="dimple,dimplerevawala,revawala,dimple-revawala,ux,ui,graphic,design,branding,experience,Node.js,product,manager,freelance,interface,app,react,designer,cv,web,website,websites,web design,design,graphic design,logo design,freelance,responsive,mobile,mobile design,unique,fun,typography,hand drawn,lettering,illustration,fonts,type,handdrawn,affordable,small business,personal,blog,portfolio,store,prints,font,icons,designer-portfolio" />
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <!-- Open Graph data -->
+  <meta property="og:site_name" content="Dimple Revawala | Frontend Web Developer" />
+  <meta property="og:title" content="Dimple Revawala | Frontend Web Developer" />
+  <meta property="og:description"
+    content="I find inspiration in the blank canvas of a web browser, where possibilities are limitless and creativity knows no bounds." />
+  <!-- <meta
+   property="og:image"
+   content="https://sanajitjana.github.io/myicon.png"
+ /> -->
+  <meta property="og:type" content="portfolio website" />
+  <!-- <meta property="og:url" content="https://sanajitjana.github.io/" /> -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+
+  <link href="./assests/images/favicon.ico" rel="icon" type="image/x-icon" />
+  <!-- title -->
+  <title>Dimple Revawala</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!-- theme css -->
+  <link href="./assests/css/style.css" rel="stylesheet">
+  <!-- Font awesome css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- Script -->
+  <script type="text/javascript" src="./assests/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assests/js//typed.min.js"></script>
+  <script type="text/javascript" src="./assests/js/app.js"></script>
+  <!-- not to allow -->
+  <!-- <script>
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (
+        e.key === "F12" ||
+        e.key === "Control" ||
+        e.key === "Escape" ||
+        e.key === "Alt" ||
+        e.key === "Shift"
+      ) {
+        e.preventDefault();
+      }
+    });
+  </script> -->
+  <!-- Not allow to copy -->
+  <script>
+    $("body").bind("copy paste cut drag drop", function (e) {
+      e.preventDefault();
+    });
+
+    $("input[type=text],textarea").bind(
+      "copy paste cut drag drop",
+      function (e) {
+        e.preventDefault();
+      }
+    );
+  </script>
+</body>
+
 </html>
