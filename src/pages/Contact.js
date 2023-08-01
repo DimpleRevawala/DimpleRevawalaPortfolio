@@ -6,70 +6,70 @@ const Contact = () => {
       <section
         data-scroll-index="4"
         id="contactus"
-        class="section contactus-section bg-dark"
+        className="section contactus-section bg-dark"
       >
-        <div class="container">
-          <div class="row gy-5">
-            <div class="col-lg-6">
-              <div class="contact-form">
+        <div className="container">
+          <div className="row gy-5">
+            <div className="col-lg-6">
+              <div className="contact-form">
                 <h6>Get in touch</h6>
-                <p class="lead">
+                <p className="lead">
                   Our friendly team would love to hear from you.
                 </p>
                 <form id="contact-form" method="POST">
-                  <div class="row gx-3 gy-4">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label class="form-label">First name</label>
+                  <div className="row gx-3 gy-4">
+                    <div className="col-md-6">
+                      <div className="form-group">
+                        <label className="form-label">First name</label>
                         <input
                           name="Name"
                           id="name"
                           placeholder="Name *"
-                          class="form-control"
+                          className="form-control"
                           type="text"
                         />
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label class="form-label">Your Email</label>
+                    <div className="col-md-6">
+                      <div className="form-group">
+                        <label className="form-label">Your Email</label>
                         <input
                           name="Email"
                           id="email"
                           placeholder="Email *"
-                          class="form-control"
+                          className="form-control"
                           type="email"
                         />
                       </div>
                     </div>
-                    <div class="col-12">
-                      <div class="form-group">
-                        <label class="form-label">Subject</label>
+                    <div className="col-12">
+                      <div className="form-group">
+                        <label className="form-label">Subject</label>
                         <input
                           name="Subject"
                           id="subject"
                           placeholder="Subject *"
-                          class="form-control"
+                          className="form-control"
                           type="text"
                         />
                       </div>
                     </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label class="form-label">Your message</label>
+                    <div className="col-md-12">
+                      <div className="form-group">
+                        <label className="form-label">Your message</label>
                         <textarea
                           name="message"
                           id="message"
                           placeholder="Your message *"
                           rows="4"
-                          class="form-control"
+                          className="form-control"
                         ></textarea>
                       </div>
                     </div>
-                    <div class="col-md-12">
-                      <div class="send">
+                    <div className="col-md-12">
+                      <div className="send">
                         <button
-                          class="px-btn px-btn-theme2"
+                          className="px-btn px-btn-theme2"
                           type="button"
                           value="Send"
                         >
@@ -82,22 +82,22 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-            <div class="col-lg-5 ms-auto col-xl-4">
-              <ul class="contact-infos">
+            <div className="col-lg-5 ms-auto col-xl-4">
+              <ul className="contact-infos">
                 <li>
-                  <div class="icon bg-2">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <div className="icon bg-2">
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <h5>Mail</h5>
                     <p>dimplerevawala1402@gmail.com</p>
                   </div>
                 </li>
                 <li>
-                  <div class="icon bg-3">
-                    <i class="fas fa-map-marker-alt"></i>
+                  <div className="icon bg-3">
+                    <i className="fas fa-map-marker-alt"></i>
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <h5>Location</h5>
                     <p>Kitchener, ON, Canada</p>
                   </div>

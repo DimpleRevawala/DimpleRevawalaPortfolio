@@ -4,7 +4,7 @@ import Main from "./Main";
 const Home = () => {
   return (
     <>
-      <main class="wrapper">
+      <main className="wrapper">
         <Main />
       </main>
     </>
