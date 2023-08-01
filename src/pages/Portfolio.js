@@ -35,17 +35,16 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="lightbox-gallery portfolio-box">
-            `
-            <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
+            <div className="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="https://pxdraft.com/themeforest/krinky/assets/img/project-1.jpg"
-                    title=""
-                    alt=""
+                    src="assests/images/work-1.png"
+                    title="Coffee House"
+                    alt="Coffee House"
                   />
                   <a
-                    href="https://pxdraft.com/themeforest/krinky/assets/img/project-1.jpg"
+                    href="assests/images/work-1.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -55,19 +54,31 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-text">
                   <h6>
-                    <span>Web Design</span>
+                    <span>UI Experience</span>
                   </h6>
-                  <h4>Website Design for Marketing Agency Startup</h4>
+                  <h4>A Coffee House UI Experience</h4>
                   <p>
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
-                    services and online stores
+                    As a passionate designer, I present an ode to coffee houses
+                    with this visually captivating user interface. "Brewing
+                    Artistry" brings together the warmth of earthy tones, the
+                    playfulness of coffee-themed icons, and the sophistication
+                    of minimalist dlish, modern websites, web services and
+                    online stores
                   </p>
+                  <div>
+                    <h5>
+                      Tools of choice :{" "}
+                      <strong className="fs-6 text-black-50">
+                        Photoshop, Illustrator, Figma, Adobe XD
+                      </strong>
+                    </h5>
+                  </div>
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
                       data-scroll-nav="4"
-                      href="#contactus"
+                      href="assests/work/work-1.pdf"
+                      target="_blank"
                     >
                       View Project
                     </a>
@@ -75,16 +86,16 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
+            <div className="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="https://pxdraft.com/themeforest/krinky/assets/img/project-2.jpg"
-                    title=""
-                    alt=""
+                    src="assests/images/work-2.png"
+                    title="Inhaircare UI"
+                    alt="Inhaircare UI"
                   />
                   <a
-                    href="https://pxdraft.com/themeforest/krinky/assets/img/project-2.jpg"
+                    href="https://xd.adobe.com/view/de405956-6fbf-4951-b2e4-a64836aea901-8b13/grid/"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -94,19 +105,140 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-text">
                   <h6>
-                    <span>Web Design</span>
+                    <span>UI Experience + Shopify</span>
                   </h6>
-                  <h4>Website Design for Marketing Agency Startup</h4>
+                  <h4>Artistic Designs for Haircare Products</h4>
                   <p>
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites, web
-                    services and online stores
+                    Welcome to Beauty in Pixels, where the magic of Shopify
+                    e-commerce converges with the creative brilliance of Adobe
+                    XD, Photoshop, Illustrator, HTML, CSS, and JS. Here, I
+                    present a captivating collection of beauty product UI
+                    designs that elevate the shopping experience.
+                    <br />
+                    Behind the scenes, HTML, CSS, and JS work their magic to
+                    bring these stunning designs to life on Shopify. The
+                    seamless integration of front-end technologies ensures a
+                    smooth and responsive shopping experience, captivating users
+                    on any device.
                   </p>
+
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
                       data-scroll-nav="4"
-                      href="#contactus"
+                      href="https://inhaircare.co/"
+                      target="_blank"
+                    >
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
+              <div className="col-md-6 col-lg-5">
+                <div className="portfolio-img">
+                  <img
+                    src="assests/images/work-3.png"
+                    title="Admin panel"
+                    alt="Admin Panel"
+                  />
+                  <a
+                    href="assests/images/work-3.png"
+                    className="gallery-link gallery-link-icon"
+                  >
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-5">
+                <div className="portfolio-text">
+                  <h6>
+                    <span>Html + CSS + JS</span>
+                  </h6>
+                  <h4>
+                    Universal Admin Panel: Centralized Control with HTML, CSS,
+                    JS, and Bootstrap
+                  </h4>
+                  <p>
+                    Welcome to the Universal Admin panel, a central control
+                    panel crafted with HTML, CSS, JS, and the power of
+                    Bootstrap. Here, I present an all-inclusive admin panel with
+                    dynamic features like bar charts and more, providing a
+                    seamless experience for managing diverse tasks and data.
+                    <br />
+                    Embrace the power of bar charts and dynamic data
+                    visualization, as I integrate JS libraries to present
+                    complex data in an easily digestible manner. Visualize
+                    trends, monitor progress, and gain valuable insights with
+                    interactive and aesthetically pleasing bar charts, enhancing
+                    your decision-making process.
+                  </p>
+
+                  <div className="btn-bar">
+                    <a
+                      className="px-btn px-btn-theme"
+                      data-scroll-nav="4"
+                      href="https://admin.pixelstrap.com/universal/default/index.html"
+                      target="_blank"
+                    >
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
+              <div className="col-md-6 col-lg-5">
+                <div className="portfolio-img">
+                  <img
+                    src="assests/images/work-4.png"
+                    title="Job Search website"
+                    alt="Job Search website"
+                  />
+                  <a
+                    href="assests/images/work-4.png"
+                    className="gallery-link gallery-link-icon"
+                  >
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-5">
+                <div className="portfolio-text">
+                  <h6>
+                    <span>React</span>
+                  </h6>
+                  <h4>
+                    Jobvia: Navigating the Job Search Landscape with React
+                  </h4>
+                  <p>
+                    Welcome to Jobvia, a dynamic job search platform powered by
+                    React that paves the way to endless opportunities. With a
+                    user-centric design and advanced features, Jobvia empowers
+                    job seekers and employers alike to connect with ease.
+                    <br />
+                    The power of React components and state management ensures a
+                    smooth and enjoyable user experience, while real-time
+                    updates keep candidates informed about the latest job
+                    postings. As an aspiring job seeker, explore personalized
+                    job recommendations tailored to your skills and interests,
+                    making your search efficient and rewarding. Employers, on
+                    the other hand, benefit from a user-friendly dashboard to
+                    manage job postings and review applicant profiles.
+                    <br />
+                    The website's modular structure, designed with HTML, CSS,
+                    and React, allows for easy scalability and maintenance,
+                    enabling seamless integration of future enhancements and
+                    features.
+                  </p>
+
+                  <div className="btn-bar">
+                    <a
+                      className="px-btn px-btn-theme"
+                      data-scroll-nav="4"
+                      href="https://jobvia.react-light.pichforest.com/"
+                      target="_blank"
                     >
                       View Project
                     </a>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ScrollToTop from "react-scroll-to-top";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -20,6 +21,7 @@ const Header = () => {
 
   return (
     <>
+      <ScrollToTop smooth color="#6f00ff" />
       <header className="main-header">
         <nav
           className={`navbar header-nav navbar-expand-lg one-page-nav ${
