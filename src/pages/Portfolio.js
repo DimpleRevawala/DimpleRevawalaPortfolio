@@ -39,12 +39,12 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="assests/images/work-1.png"
+                    src="./assests/images/work-1.png"
                     title="Coffee House"
                     alt="Coffee House"
                   />
                   <a
-                    href="assests/images/work-1.png"
+                    href="./assests/images/work-1.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                     <a
                       className="px-btn px-btn-theme"
                       data-scroll-nav="4"
-                      href="assests/work/work-1.pdf"
+                      href="./assests/work/work-1.pdf"
                       target="_blank"
                     >
                       View Project
@@ -90,7 +90,7 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="assests/images/work-2.png"
+                    src="./assests/images/work-2.png"
                     title="Inhaircare UI"
                     alt="Inhaircare UI"
                   />
@@ -139,12 +139,12 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="assests/images/work-3.png"
+                    src="./assests/images/work-3.png"
                     title="Admin panel"
                     alt="Admin Panel"
                   />
                   <a
-                    href="assests/images/work-3.png"
+                    href="./assests/images/work-3.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -192,12 +192,12 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="assests/images/work-4.png"
+                    src="./assests/images/work-4.png"
                     title="Job Search website"
                     alt="Job Search website"
                   />
                   <a
-                    href="assests/images/work-4.png"
+                    href="./assests/images/work-4.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
