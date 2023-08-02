@@ -52,7 +52,7 @@ const Main = () => {
             <div className="col-lg-6 pt-4 pt-lg-0 mt-0">
               <div className="home-image text-center">
                 <img
-                  src="/assests/images/main.png"
+                  src="../../public/assests/images/main.png"
                   title="Header image"
                   alt="Header image"
                 />
