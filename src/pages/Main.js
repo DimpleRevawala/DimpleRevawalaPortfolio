@@ -1,7 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import myPhoto from "../../public/assests/images/main.png";
 
 const Main = () => {
   const el = useRef(null);
@@ -52,7 +51,11 @@ const Main = () => {
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 mt-0">
               <div className="home-image text-center">
-                <img src={myPhoto} title="Header image" alt="Header image" />
+                <img
+                  src="/assests/images/main.png"
+                  title="Header image"
+                  alt="Header image"
+                />
               </div>
             </div>
           </div>
