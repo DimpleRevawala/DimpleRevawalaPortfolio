@@ -816,15 +816,18 @@ main {
 ---------------------*/
 .portfolio-box .portfolio-img {
   position: relative;
-  border: 2px solid #373737;
+  background-color: #000;
   box-shadow: 0 0 0 0 #373737;
   transition: ease all 0.35s;
   position: relative;
 }
+.portfolio-img > img {
+  padding: 25px;
+}
 .portfolio-box .portfolio-img .gallery-link-icon {
   width: 40px;
   height: 40px;
-  background: #fff;
+  background: #ff5221;
   color: #373737;
   display: -ms-inline-flexbox;
   display: inline-flex;
