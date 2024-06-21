@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="container">
           <div className="row gy-5">
             <div className="col-lg-6">
-              <div className="contact-form">
+              <div className="contact-form  bg-2">
                 <h6>Get in touch</h6>
                 <p className="lead">
                   Our friendly team would love to hear from you.
@@ -69,7 +69,7 @@ const Contact = () => {
                     <div className="col-md-12">
                       <div className="send">
                         <button
-                          className="px-btn px-btn-theme2"
+                          className="px-btn px-btn-theme"
                           type="button"
                           value="Send"
                         >
@@ -85,12 +85,12 @@ const Contact = () => {
             <div className="col-lg-5 ms-auto col-xl-4">
               <ul className="contact-infos">
                 <li>
-                  <div className="icon bg-2">
+                  <div className="icon bg-1">
                     <i className="fa fa-envelope" aria-hidden="true"></i>
                   </div>
                   <div className="col">
-                    <h5>Mail</h5>
-                    <p>dimplerevawala1402@gmail.com</p>
+                    <h5 className="text-black">Mail</h5>
+                    <p className="text-black">Kasimdev07@gmail.com</p>
                   </div>
                 </li>
                 <li>
@@ -98,8 +98,8 @@ const Contact = () => {
                     <i className="fas fa-map-marker-alt"></i>
                   </div>
                   <div className="col">
-                    <h5>Location</h5>
-                    <p>Kitchener, ON, Canada</p>
+                    <h3 className="">Location</h3>
+                    <p>Toronto, ON, Canada</p>
                   </div>
                 </li>
               </ul>
