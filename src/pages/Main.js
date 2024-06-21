@@ -31,7 +31,7 @@ const Main = () => {
   }, []);
   return (
     <>
-      <section data-scroll-index="0" className="bg-gray home-section">
+      <section data-scroll-index="0" className="bg-gray home-section non-selectable">
         <div className="container">
           <div className="row gy-6  justify-center align-items-center">
             <div className="col-lg-8  align-items-center">
@@ -65,8 +65,8 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="section about-section" id="services">
-        <div className="container">
+      <section className="section about-section non-selectable " id="services">
+        <div className="container  ">
           <div className="row gy-5 align-items-center">
             <div className="col-sm-4 col-lg-4 mt-lg-5 pt-lg-5 order-2 order-md-0 text-center">
               <img
@@ -75,8 +75,8 @@ const Main = () => {
                 alt="About section image"
               />
             </div>
-            <div className="col-sm-7 col-lg-7 ps-lg-5 offset-md-1">
-              <div className="about-right">
+            <div className="col-sm-7   col-lg-7 ps-lg-5 offset-md-1">
+              <div className="about-right ">
                 <div className="bulb-bunch">
                   <div className="bulb-holder">
                     <div className="bulb">
@@ -95,17 +95,28 @@ const Main = () => {
                     </div>
                   </div>
                 </div>
-                <div className="about-text mt-lg-5 pt-lg-5">
+                <div className="about-text  mt-lg-5 pt-lg-5">
                   <h2 className="about-header text-start">
-                    Full-Stack Developer with a strong background in web and
-                    mobile app development.
+                    Mobile App and Web Development Expert
                   </h2>
                   <p className="text-start">
-                    I'm a Full-Stack Developer with having experience in web and
-                    mobile app develpment. I'm a Full-Stack Developer with
-                    having experience in web and mobile app develpment. I'm a
-                    Full-Stack Developer with having experience in web and
-                    mobile app develpment.
+                    As a seasoned software developer based in Toronto, Ontario,
+                    Canada, I specialize in crafting innovative mobile app and
+                    web solutions that drive results. With a strong background
+                    in React Native development and a passion for staying
+                    up-to-date with the latest industry trends, I excel in
+                    delivering high-quality products that meet and exceed client
+                    expectations. I have a proven track record of success in my
+                    previous role as a React Native Developer at Apptunix, where
+                    I implemented various features, utilized Redux for data
+                    handling, and collaborated with cross-functional teams to
+                    deliver high-quality products. My skills include full stack
+                    web development, web design, agile methodologies, cloud
+                    platforms, database management, and version control. I'm
+                    proficient in a range of technologies, including React
+                    Native, HTML, CSS, JavaScript, React, Node.js, Adobe
+                    Creative Suite, AWS, Google Cloud, MySQL, MongoDB, Git, and
+                    SVN.
                   </p>
                   {/* <div className="row pt-2 text-start">
                     <div className="col-6 col-md-4">

@@ -31,7 +31,7 @@ const Skills = () => {
     <>
       <section
         data-scroll-index="2"
-        className="section experience-section"
+        className="section experience-section non-selectable"
         id="skill"
       >
         <div className="container ">

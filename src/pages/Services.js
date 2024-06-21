@@ -5,7 +5,7 @@ const Services = () => {
     <>
       <section
         data-scroll-index="1"
-        className="section services-section bg-gray"
+        className="section services-section non-selectable bg-gray"
       >
         <div className="container">
           <div className="row section-heading justify-content-center">
@@ -18,8 +18,8 @@ const Services = () => {
           <div className="row gy-4">
             <div className="col-md-6">
               <div className="feature-box-01 bg-1">
-                <div className="icon">
-                  <i className="fa fa-laptop" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/full-stack.png" />
                 </div>
                 <div className="feature-content">
                   <h5>Full Stack Development</h5>
@@ -33,8 +33,8 @@ const Services = () => {
             </div>
             <div className="col-md-6">
               <div className="feature-box-01 bg-2">
-                <div className="icon">
-                  <i className="fa fa-code" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/web-design.png" />
                 </div>
                 <div className="feature-content">
                   <h5>Web Application Development</h5>
@@ -48,8 +48,8 @@ const Services = () => {
             </div>
             <div className="col-md-6">
               <div className="feature-box-01 bg-3">
-                <div className="icon">
-                  <i className="fa fa-file-code" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/mobileApp.png" />
                 </div>
                 <div className="feature-content">
                   <h5>Mobile App Development </h5>
@@ -63,8 +63,8 @@ const Services = () => {
             </div>
             <div className="col-md-6">
               <div className="feature-box-01 bg-6">
-                <div className="icon">
-                  <i className="fa fa-globe" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/ecommerce-app.png" />
                 </div>
                 <div className="feature-content">
                   <h5>E-commerce Solution Development </h5>
@@ -78,8 +78,8 @@ const Services = () => {
             </div>
             <div className="col-md-6">
               <div className="feature-box-01 bg-4">
-                <div className="icon">
-                  <i className="fa fa-object-group" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/tool.png" />
                 </div>
                 <div className="feature-content">
                   <h5>UI/UX design</h5>
@@ -96,8 +96,9 @@ const Services = () => {
             </div>
             <div className="col-md-6">
               <div className="feature-box-01 bg-5">
-                <div className="icon">
-                  <i className="fa fa-tablet" aria-hidden="true"></i>
+                <div className="">
+                  <img src="./assests/images/devops.png" />
+                  {/* <i className="fa fa-tablet" aria-hidden="true"></i> */}
                 </div>
                 <div className="feature-content">
                   <h5>DevOps and Deployment Services</h5>
