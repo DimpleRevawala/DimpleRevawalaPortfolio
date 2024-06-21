@@ -219,6 +219,9 @@
 .bg-6 {
   background-color: #d2ceff;
 }
+.bg-7 {
+  background-color: #fffbff;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -293,6 +296,7 @@ main {
 /* logo 
 --------------------*/
 .logo-5 {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .logo-5 h3 {
@@ -350,6 +354,7 @@ main {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -359,87 +364,15 @@ main {
   position: relative;
   overflow: hidden;
   padding-top: 180px;
+  flex: 1;
   padding-bottom: 100px;
-}
-.shape--1 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='253.847' height='328.934' viewBox='0 0 253.847 328.934'%3E%3Cpath id='Path_1092' data-name='Path 1092' d='M6115.972,1021.762A171.39,171.39,0,0,0,6192.4,791.747L5885.956,945.33A171.39,171.39,0,0,0,6115.972,1021.762Z' transform='matrix(0.017, 1, -1, 0.017, 937.083, -5898.877)' fill='%23e3505d'/%3E%3C/svg%3E%0A");
-  width: 36px;
-  height: 47px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 17%;
-  left: 10%;
-}
-
-.shape--2 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 210.735 210.733'%3E%3Cpath fill='%23ffe100' d='M-1.103896 107.498545a103.59096565 103.59096565 0 11105.337758 101.813191A103.70798256 103.70798256 0 01-1.103896 107.498545zm171.454-2.914718a67.88780766 67.88780766 0 10-66.723074 69.031909 67.96481879 67.96481879 0 0066.722074-69.031892z' data-name='Path 1093'/%3E%3C/svg%3E");
-  width: 42px;
-  height: 42px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 10%;
-  right: 5%;
-}
-
-.shape--3 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 327.654 273.943'%3E%3Cg data-name='Group 3687'%3E%3Cpath fill='%2353a3dc' d='M230.449383 232.834951q23.630211-33.428208 16.667604-73.898352-6.86832-39.94104-40.304931-63.566967t-73.898439-16.666608q-39.940866 6.866328-63.56688 40.303935L15.330456 81.293332q39.525465-55.92744 106.434201-67.437243 67.440132-11.595861 123.061572 27.710184t67.132452 106.223919q11.595861 67.440132-27.922371 123.365193' data-name='Path 1098'/%3E%3C/g%3E%3C/svg%3E");
-  width: 45px;
-  height: 45px;
-  bottom: 20%;
-  right: 15%;
-}
-
-.shape--4 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' data-name='Group 3657' viewBox='0 0 234.817 234.82'%3E%3Cpath fill='%23488724' d='M117.409 234.82a117.41 117.41 0 11117.408-117.411A117.542 117.542 0 01117.409 234.82zm0-194.354a76.944 76.944 0 1076.942 76.943 77.031 77.031 0 00-76.942-76.943z' data-name='Path 1093'/%3E%3C/svg%3E");
-  width: 45px;
-  height: 45px;
-  bottom: 30%;
-  left: 23%;
-}
-
-.shape--5 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 241.478 352.931'%3E%3Cg data-name='Group 3656'%3E%3Cg data-name='Group 3655'%3E%3Cpath fill='%23ec94b3' d='M0 310.88L159.686311-.10647l81.97345 42.091985L81.97345 352.971985z' data-name='Rectangle 77'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  width: 45px;
-  height: 45px;
-  top: 30%;
-  left: 43%;
-}
-
-.shape--6 {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 241.478 352.931'%3E%3Cg data-name='Group 3656'%3E%3Cg data-name='Group 3655'%3E%3Cpath fill='%23ec94b3' d='M0 310.88L159.686311-.10647l81.97345 42.091985L81.97345 352.971985z' data-name='Rectangle 77'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  width: 45px;
-  height: 45px;
-  top: 60%;
-  right: 4%;
-}
-
-.shape {
-  motion-rotation: reverse;
-  animation: move 30s linear infinite;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
-.path--1 {
-  offset-path: path(
-    "M18.45,58.46s52.87-70.07,101.25-.75,101.75-6.23,101.75-6.23S246.38,5.59,165.33,9.08s-15,71.57-94.51,74.56S18.45,58.46,18.45,58.46Z"
-  );
 }
 
 @keyframes move {
   100% {
     motion-offset: 100%;
-    offset-distance: 100%;
+    motion-distance: 100%;
   }
-}
-
-.hero {
-  width: 100%;
-  height: 50%;
-  overflow: hidden;
 }
 
 @media (max-width: 767px) {
@@ -451,7 +384,7 @@ main {
 .home-section:after {
   content: "";
   position: absolute;
-  top: -18%;
+  top: -25%;
   bottom: 37%;
   left: 48%;
   right: -16%;
@@ -464,7 +397,7 @@ main {
   .home-section:after {
     top: 0%;
     bottom: 70%;
-    left: 10%;
+    left: 20%;
     right: -75%;
   }
 }
@@ -526,6 +459,10 @@ main {
   margin: 0 0 25px;
 }
 
+.about-section {
+  background-color: #fafafa;
+  border-radius: 0rcap;
+}
 .about-text p {
   font-size: 18px;
   color: #373737;
@@ -548,6 +485,8 @@ main {
 .bulb-bunch {
   position: absolute;
   left: -409px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   top: -208px;
 }
 .bulb-holder {
@@ -568,7 +507,7 @@ main {
   background: #fff;
   border-radius: 60%;
   transform: translate(0px, 30px);
-  animation: light 2000ms infinite cubic-bezier(1, -0.45, 0, 1.89);
+  animation: light 2500ms infinite cubic-bezier(1, -0.45, 0, 1.89);
 }
 .bulb-bunch #b1 {
   transform: translate(720px, 180px);
@@ -577,19 +516,49 @@ main {
   transform: translate(525px, 180px);
 }
 
-/* .front {
-  width: 500px;
-  height: 500px;
-  background: #021414;
-  transform: translate(400px, 100px);
-} */
+.bounce-emoji {
+  animation: bounce 2s infinite;
+  display: inline-block; /* This is necessary for transform to work on inline elements like span */
+}
+
+.slide-in-emoji {
+  animation: slide-in 2s;
+  display: inline-block; /* This is necessary for transform to work on inline elements like span */
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pop-in-emoji {
+  animation: pop-in 1s;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(100);
+
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 .about-text .about-header {
   background: radial-gradient(purple, lightcoral, yellow);
-  background-clip: text;
+
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 500ms infinite;
+  animation: gradient 700ms infinite;
 }
 @keyframes gradient {
   25% {

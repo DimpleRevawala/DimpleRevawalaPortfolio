@@ -30,8 +30,8 @@ const Header = () => {
         >
           <div className="container">
             <a className="navbar-brand logo-5 m-1" href="#">
-              <h3 className="m-0">Dimple</h3>
-              <p className="m-0">Revawala</p>
+              <h3 className="m-0">Kasim</h3>
+              <p className="m-0">Developer</p>
             </a>
 
             <button
@@ -43,9 +43,9 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span></span>
-              <span></span>
-              <span></span>
+              <span />
+              <span />
+              <span />
             </button>
 
             <div

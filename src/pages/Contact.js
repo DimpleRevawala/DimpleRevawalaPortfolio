@@ -90,7 +90,7 @@ const Contact = () => {
                   </div>
                   <div className="col">
                     <h5>Mail</h5>
-                    <p>dimplerevawala1402@gmail.com</p>
+                    <p>Kasimdev07@gmail.com</p>
                   </div>
                 </li>
                 <li>
@@ -99,7 +99,7 @@ const Contact = () => {
                   </div>
                   <div className="col">
                     <h5>Location</h5>
-                    <p>Kitchener, ON, Canada</p>
+                    <p>Toronto, ON, Canada</p>
                   </div>
                 </li>
               </ul>

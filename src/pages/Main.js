@@ -7,7 +7,14 @@ const Main = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Designer.", "Developer."],
+      strings: [
+        "Designer.",
+        "Developer.",
+        "Entrepreneur",
+        "Creator",
+        "Problem Solver.",
+        "Digital Dreamer",
+      ],
 
       startDelay: 300,
       typeSpeed: 100,
@@ -26,30 +33,27 @@ const Main = () => {
     <>
       <section data-scroll-index="0" className="bg-gray home-section">
         <div className="container">
-          <div className="row gy-5 align-items-center">
-            <div className="col-lg-6">
+          <div className="row gy-6  justify-center align-items-center">
+            <div className="col-lg-8  align-items-center">
               <div className="home-intro one-page-nav text-center text-lg-start">
-                <div className="hero">
-                  <div className="shape shape--1 path--1"></div>
-                  <div className="shape shape--2 path--1"></div>
-                  <div className="shape shape--3 path--1"></div>
-                  <div className="shape shape--4 path--1"></div>
-                  <div className="shape shape--5 path--1"></div>
-                  <div className="shape shape--6 path--1"></div>
-                </div>
-                <h6>👋, My name is Dimple Revawala</h6>
-                <h1>
+                <h6>
+                  <span className="slide-in-emoji">
+                    👋Hey, My name is Kasim Kazmi
+                  </span>
+                </h6>
+
+                <h1 className="slide-in-emoji">
                   I'm a <span ref={el}></span>
                 </h1>
-                <p>Based in Canada.</p>
-                <div className="btn-bar">
+                {/* <p>Based in Canada.</p> */}
+                {/* <div className="btn-bar">
                   <a className="px-btn px-btn-theme" href="#">
                     Let's Start
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="col-lg-6 pt-4 pt-lg-0 mt-0">
+            <div className="col-lg-4 pt-3 pt-lg-0 mt-0">
               <div className="home-image text-center">
                 <img
                   src="./assests/images/main.png"
@@ -66,7 +70,7 @@ const Main = () => {
           <div className="row gy-5 align-items-center">
             <div className="col-sm-4 col-lg-4 mt-lg-5 pt-lg-5 order-2 order-md-0 text-center">
               <img
-                src="./assests/images/about-img.png"
+                src="./assests/images/about-img.jpg"
                 title="About section image"
                 alt="About section image"
               />
@@ -91,27 +95,28 @@ const Main = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="about-text mt-lg-5 pt-lg-5">
                   <h2 className="about-header text-start">
-                    I'm a Front-end Developer with over 4 years of experience.
+                    Full-Stack Developer with a strong background in web and
+                    mobile app development.
                   </h2>
                   <p className="text-start">
-                    I'm a Front-end Developer with over 4 years of experience.
-                    I'm from Canada. I code and create web elements for amazing
-                    people around the world. I like work with new people. New
-                    people new Experiences.
+                    I'm a Full-Stack Developer with having experience in web and
+                    mobile app develpment. I'm a Full-Stack Developer with
+                    having experience in web and mobile app develpment. I'm a
+                    Full-Stack Developer with having experience in web and
+                    mobile app develpment.
                   </p>
-                  <div className="row pt-2 text-start">
+                  {/* <div className="row pt-2 text-start">
                     <div className="col-6 col-md-4">
-                      <h5>100+</h5>
+                      <h5>50+</h5>
                       <span>Projet Completed</span>
                     </div>
                     <div className="col-6 col-md-4">
-                      <h5>190+</h5>
+                      <h5>100+</h5>
                       <span>Happy Clients</span>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="btn-bar pt-4 text-start">
                     <a
                       className="px-btn px-btn-theme me-3 me-md-4"
@@ -121,7 +126,8 @@ const Main = () => {
                     </a>
                     <a
                       className="px-btn px-btn-dark"
-                      href="assests/cv/dummy.docx"
+                      // href="assests/cv/dummy.docx"
+                      href="https://read.cv/kasimkazmi"
                       target="_blank"
                     >
                       See Resume

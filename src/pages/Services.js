@@ -22,11 +22,11 @@ const Services = () => {
                   <i className="fa fa-laptop" aria-hidden="true"></i>
                 </div>
                 <div className="feature-content">
-                  <h5>Website Design</h5>
+                  <h5>Full Stack Development</h5>
                   <p>
-                    I can offer website design services where I create visually
-                    appealing, user-friendly interfaces that are optimized for
-                    different devices and screen sizes.
+                    I can design and develop responsive, scalable, and secure
+                    web applications using front-end and back-end technologies,
+                    ensuring a seamless user experience.
                   </p>
                 </div>
               </div>
@@ -37,11 +37,11 @@ const Services = () => {
                   <i className="fa fa-code" aria-hidden="true"></i>
                 </div>
                 <div className="feature-content">
-                  <h5>Frontend development</h5>
+                  <h5>Web Application Development</h5>
                   <p>
-                    I can offer frontend development services where I use HTML,
-                    CSS, and JavaScript to create responsive, dynamic, and
-                    interactive websites.
+                    I can develop custom web applications using React.js,
+                    Node.js, Next.js, and Tailwind CSS, allowing for fast
+                    development, scalability, and maintainability.
                   </p>
                 </div>
               </div>
@@ -52,11 +52,26 @@ const Services = () => {
                   <i className="fa fa-file-code" aria-hidden="true"></i>
                 </div>
                 <div className="feature-content">
-                  <h5>Website optimization</h5>
+                  <h5>Mobile App Development </h5>
                   <p>
-                    I can offer website optimization services where I analyze
-                    and improve website performance, load times, and user
-                    experience.
+                    I can develop cross-platform mobile applications for Android
+                    and iOS using React Native, allowing for fast development
+                    and cost-effective maintenance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="feature-box-01 bg-6">
+                <div className="icon">
+                  <i className="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <div className="feature-content">
+                  <h5>E-commerce Solution Development </h5>
+                  <p>
+                    I can design and develop custom e-commerce solutions using
+                    platforms like Shopify, with features like payment gateways,
+                    shipping integrations, etc.
                   </p>
                 </div>
               </div>
@@ -69,9 +84,12 @@ const Services = () => {
                 <div className="feature-content">
                   <h5>UI/UX design</h5>
                   <p>
-                    I can offer user interface and user experience design
-                    services where I create intuitive, easy-to-use interfaces
-                    that help users achieve their goals.
+                    I can create intuitive, easy-to-use interfaces that help
+                    users achieve their goals, using design principles like
+                    human-centered design, user research, and usability testing.
+                    With expertise in Adobe XD and Canva, I can design visually
+                    appealing and user-friendly interfaces for web and mobile
+                    applications.
                   </p>
                 </div>
               </div>
@@ -82,26 +100,14 @@ const Services = () => {
                   <i className="fa fa-tablet" aria-hidden="true"></i>
                 </div>
                 <div className="feature-content">
-                  <h5>Responsive design</h5>
+                  <h5>DevOps and Deployment Services</h5>
                   <p>
-                    I can offer responsive design services where I create
-                    websites that adapt to different devices and screen sizes,
-                    providing users with a consistent and optimal experience.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-box-01 bg-6">
-                <div className="icon">
-                  <i className="fa fa-globe" aria-hidden="true"></i>
-                </div>
-                <div className="feature-content">
-                  <h5>Cross-browser compatibility</h5>
-                  <p>
-                    I can offer cross-browser compatibility services where I
-                    ensure that websites work well across different web browsers
-                    and platforms.
+                    I can offer DevOps and deployment services where I set up
+                    and configure development, staging, and production
+                    environments for web applications. I can develop and
+                    implement continuous integration and continuous deployment
+                    (CI/CD) pipelines using tools like Jenkins, ensuring fast
+                    and reliable deployment of applications.
                   </p>
                 </div>
               </div>

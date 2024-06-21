@@ -56,7 +56,7 @@ const Portfolio = () => {
                   <h6>
                     <span>UI Experience</span>
                   </h6>
-                  <h4>A Coffee House UI Experience</h4>
+                  <h4>Mobile Banking App UI Experience</h4>
                   <p>
                     As a passionate designer, I present an ode to coffee houses
                     with this visually captivating user interface. "Brewing
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     <h5>
                       Tools of choice :{" "}
                       <strong className="fs-6 text-black-50">
-                        Photoshop, Illustrator, Figma, Adobe XD
+                      Adobe XD, Illustrator, Figma
                       </strong>
                     </h5>
                   </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="./assests/images/work-2.png"
+                    src="./assests/images/work-1.png"
                     title="Inhaircare UI"
                     alt="Inhaircare UI"
                   />
@@ -139,12 +139,12 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="./assests/images/work-3.png"
+                    src="./assests/images/work-1.png"
                     title="Admin panel"
                     alt="Admin Panel"
                   />
                   <a
-                    href="./assests/images/work-3.png"
+                    href="./assests/images/work-1.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -192,12 +192,12 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-img">
                   <img
-                    src="./assests/images/work-4.png"
+                    src="./assests/images/work-1.png"
                     title="Job Search website"
                     alt="Job Search website"
                   />
                   <a
-                    href="./assests/images/work-4.png"
+                    href="./assests/images/work-1.png"
                     className="gallery-link gallery-link-icon"
                   >
                     <i className="fas fa-arrow-right"></i>
@@ -207,7 +207,7 @@ const Portfolio = () => {
               <div className="col-md-6 col-lg-5">
                 <div className="portfolio-text">
                   <h6>
-                    <span>React</span>
+                    <span>React + Tailwind CSS</span>
                   </h6>
                   <h4>
                     Jobvia: Navigating the Job Search Landscape with React
